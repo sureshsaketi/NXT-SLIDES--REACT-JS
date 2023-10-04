@@ -18,13 +18,14 @@ const NewButton = () => (
       }
 
       return (
-        <Button onClick={onClickAddButton}>
-          <ButtonImage
+        <button type="button" className="Button" onClick={onClickAddButton}>
+          <img
+            className="ButtonImage"
             src="https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-plus-icon.png"
             alt="new plus icon"
           />
           New
-        </Button>
+        </button>
       )
     }}
   </SlidesContext.Consumer>
