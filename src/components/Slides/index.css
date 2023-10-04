@@ -1,0 +1,21 @@
+.slides-container {
+  height: 100%;
+  display: flex;
+  overflow-y: auto;
+  margin-left: 15px;
+}
+.slides-list-container {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  flex-shrink: 0;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+@media screen and (max-width: 767px) {
+  .slides-list-container {
+    width: 200px;
+  }
+}
