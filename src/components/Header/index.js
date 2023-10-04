@@ -1,14 +1,15 @@
 import './index.css'
 
-import {HeaderContainer, LogoImage, NextSlidesHeading} from './styledComponents'
+// import {HeaderContainer, LogoImage, NextSlidesHeading} from './styledComponents'
 
 const Header = () => (
-  <HeaderContainer>
-    <LogoImage
+  <div className="HeaderContainer">
+    <img
+      className="LogoImage"
       src="https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-logo.png"
       alt="nxt slides logo"
     />
-    <NextSlidesHeading>Nxt Slides</NextSlidesHeading>
-  </HeaderContainer>
+    <h1 className="NextSlidesHeading">Nxt Slides</h1>
+  </div>
 )
 export default Header

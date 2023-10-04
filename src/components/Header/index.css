@@ -1,0 +1,18 @@
+.HeaderContainer {
+  height: 50px;
+  background-color: #dbeafe;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.LogoImage {
+  height: 30px;
+  margin-bottom: 5px;
+}
+.NextSlidesHeading {
+  color: #000000;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 500;
+}
